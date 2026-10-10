@@ -1,0 +1,1383 @@
+{
+  "schema_version": "1.0",
+  "clips": [
+    {
+      "glb": "gene_expression_scene.glb",
+      "name": "transcription",
+      "purpose": "Polymerase advances along the template strand; local melting and chemistry are schematic.",
+      "duration_seconds": 6,
+      "embedded": true,
+      "interruptible": true,
+      "resettable": true,
+      "loop": false,
+      "start_end_states": [
+        {
+          "node_name": "rna_polymerase",
+          "property": "translation",
+          "start": [
+            0,
+            -1,
+            0
+          ],
+          "end": [
+            0,
+            1.6,
+            0
+          ]
+        }
+      ],
+      "prerequisites": [
+        "Restore the rest transforms before playback."
+      ],
+      "reset": "Stop actions and restore saved rest transforms; do not run mutation clips concurrently."
+    },
+    {
+      "glb": "gene_expression_scene.glb",
+      "name": "mrna_emergence",
+      "purpose": "Sequentially reveals an illustrative mRNA strand. RNA synthesis direction is represented schematically, not atomically.",
+      "duration_seconds": 4.2,
+      "embedded": true,
+      "interruptible": true,
+      "resettable": true,
+      "loop": false,
+      "start_end_states": [
+        {
+          "node_name": "mrna_segment_000",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "mrna_segment_001",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "mrna_segment_002",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "mrna_segment_003",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "mrna_segment_004",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "mrna_segment_005",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "mrna_segment_006",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "mrna_segment_007",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "mrna_segment_008",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "mrna_segment_009",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "mrna_segment_010",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "mrna_segment_011",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "mrna_segment_012",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "mrna_segment_013",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "mrna_segment_014",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "mrna_segment_015",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "mrna_segment_016",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "mrna_segment_017",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "mrna_segment_018",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "mrna_segment_019",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "mrna_segment_020",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "mrna_segment_021",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "mrna_segment_022",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "mrna_segment_023",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "mrna_segment_024",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "mrna_segment_025",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "mrna_segment_026",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "mrna_segment_027",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "Restore the rest transforms before playback."
+      ],
+      "reset": "Stop actions and restore saved rest transforms; do not run mutation clips concurrently."
+    },
+    {
+      "glb": "gene_expression_scene.glb",
+      "name": "ribosome_translation",
+      "purpose": "Ribosome translocation along mRNA; codon identities are assigned by the host.",
+      "duration_seconds": 5,
+      "embedded": true,
+      "interruptible": true,
+      "resettable": true,
+      "loop": false,
+      "start_end_states": [
+        {
+          "node_name": "ribosome",
+          "property": "translation",
+          "start": [
+            2,
+            -1.7,
+            0.5
+          ],
+          "end": [
+            3.15,
+            -1.7,
+            0.5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "Complete mrna_emergence or externally show the mRNA.",
+        "Restore the ribosome rest transform."
+      ],
+      "reset": "Stop actions and restore saved rest transforms; do not run mutation clips concurrently."
+    },
+    {
+      "glb": "gene_expression_scene.glb",
+      "name": "trna_entry",
+      "purpose": "tRNA approaches the decoding site. Anticodon pairing and chemical transfer are simplified.",
+      "duration_seconds": 2.4,
+      "embedded": true,
+      "interruptible": true,
+      "resettable": true,
+      "loop": false,
+      "start_end_states": [
+        {
+          "node_name": "trna",
+          "property": "translation",
+          "start": [
+            5.1,
+            0,
+            1.3
+          ],
+          "end": [
+            2.4,
+            -0.9,
+            1.15
+          ]
+        }
+      ],
+      "prerequisites": [
+        "Show mRNA and restore ribosome to its start position."
+      ],
+      "reset": "Stop actions and restore saved rest transforms; do not run mutation clips concurrently."
+    },
+    {
+      "glb": "gene_expression_scene.glb",
+      "name": "amino_acid_chain_growth",
+      "purpose": "Sequentially reveals nascent amino-acid residues and peptide linkages.",
+      "duration_seconds": 3.6,
+      "embedded": true,
+      "interruptible": true,
+      "resettable": true,
+      "loop": false,
+      "start_end_states": [
+        {
+          "node_name": "amino_acid_000",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "amino_acid_001",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "amino_acid_002",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "amino_acid_003",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "amino_acid_004",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "amino_acid_005",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "amino_acid_006",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "amino_acid_007",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "amino_acid_008",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "amino_acid_009",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "amino_acid_010",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "amino_acid_011",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "amino_acid_012",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "amino_acid_013",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "Show the mRNA; translation and residue sequence logic belong to the host."
+      ],
+      "reset": "Stop actions and restore saved rest transforms; do not run mutation clips concurrently."
+    },
+    {
+      "glb": "mutation_scene.glb",
+      "name": "base_substitution",
+      "purpose": "Example complementary A-T to G-C substitution; sugars and phosphate pivots remain stable.",
+      "duration_seconds": 1.8,
+      "embedded": true,
+      "interruptible": true,
+      "resettable": true,
+      "loop": false,
+      "start_end_states": [
+        {
+          "node_name": "mutation_target_base",
+          "property": "scale",
+          "start": [
+            1,
+            1,
+            1
+          ],
+          "end": [
+            0.001,
+            0.001,
+            0.001
+          ]
+        },
+        {
+          "node_name": "mutation_replacement_base_G",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "mutation_dna_base_thymine_b_005",
+          "property": "scale",
+          "start": [
+            1,
+            1,
+            1
+          ],
+          "end": [
+            0.001,
+            0.001,
+            0.001
+          ]
+        },
+        {
+          "node_name": "mutation_replacement_base_C",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "mutation_dna_hydrogen_bond_005_0",
+          "property": "scale",
+          "start": [
+            1,
+            1,
+            1
+          ],
+          "end": [
+            0.001,
+            0.001,
+            0.001
+          ]
+        },
+        {
+          "node_name": "mutation_dna_hydrogen_bond_005_1",
+          "property": "scale",
+          "start": [
+            1,
+            1,
+            1
+          ],
+          "end": [
+            0.001,
+            0.001,
+            0.001
+          ]
+        },
+        {
+          "node_name": "mutation_replacement_hydrogen_bond_0",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "mutation_replacement_hydrogen_bond_1",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "mutation_replacement_hydrogen_bond_2",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "Restore the rest transforms before playback."
+      ],
+      "reset": "Stop actions and restore saved rest transforms; do not run mutation clips concurrently."
+    },
+    {
+      "glb": "mutation_scene.glb",
+      "name": "highlight_mutation",
+      "purpose": "Subtle target-base pulse; host may alternatively highlight its material.",
+      "duration_seconds": 1.2,
+      "embedded": true,
+      "interruptible": true,
+      "resettable": true,
+      "loop": false,
+      "start_end_states": [
+        {
+          "node_name": "mutation_target_base",
+          "property": "scale",
+          "start": [
+            1,
+            1,
+            1
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "Restore the rest transforms before playback."
+      ],
+      "reset": "Stop actions and restore saved rest transforms; do not run mutation clips concurrently."
+    },
+    {
+      "glb": "mutation_scene.glb",
+      "name": "nucleotide_insertion",
+      "purpose": "Insert a complementary G-C pair and shift/rephase downstream pairs. Linkage connectivity is restored at the endpoint; intermediate backbone motion is schematic.",
+      "duration_seconds": 2.5,
+      "embedded": true,
+      "interruptible": true,
+      "resettable": true,
+      "loop": false,
+      "start_end_states": [
+        {
+          "node_name": "insertion_nucleotide",
+          "property": "scale",
+          "start": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "end": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "node_name": "mutation_dna_base_pair_006",
+          "property": "translation",
+          "start": [
+            0,
+            0.17,
+            0
+          ],
+          "end": [
+            0,
+            0.51,
+            0
+          ]
+        },
+        {
+          "node_name": "mutation_dna_base_pair_006",
+          "property": "rotation",
+          "start": [
+            0,
+            0.9749279121818236,
+            0,
+            -0.22252093395631434
+          ],
+          "end": [
+            0,
+            0.8660254037844386,
+            0,
+            -0.5000000000000002
+          ]
+        },
+        {
+          "node_name": "mutation_dna_base_pair_007",
+          "property": "translation",
+          "start": [
+            0,
+            0.51,
+            0
+          ],
+          "end": [
+            0,
+            0.8500000000000001,
+            0
+          ]
+        },
+        {
+          "node_name": "mutation_dna_base_pair_007",
+          "property": "rotation",
+          "start": [
+            0,
+            0.8660254037844386,
+            0,
+            -0.5000000000000002
+          ],
+          "end": [
+            0,
+            0.6801727377709194,
+            0,
+            -0.7330518718298263
+          ]
+        },
+        {
+          "node_name": "mutation_dna_base_pair_008",
+          "property": "translation",
+          "start": [
+            0,
+            0.8500000000000001,
+            0
+          ],
+          "end": [
+            0,
+            1.1900000000000002,
+            0
+          ]
+        },
+        {
+          "node_name": "mutation_dna_base_pair_008",
+          "property": "rotation",
+          "start": [
+            0,
+            0.6801727377709194,
+            0,
+            -0.7330518718298263
+          ],
+          "end": [
+            0,
+            0.43388373911755823,
+            0,
+            -0.900968867902419
+          ]
+        },
+        {
+          "node_name": "mutation_dna_base_pair_009",
+          "property": "translation",
+          "start": [
+            0,
+            1.1900000000000002,
+            0
+          ],
+          "end": [
+            0,
+            1.5300000000000002,
+            0
+          ]
+        },
+        {
+          "node_name": "mutation_dna_base_pair_009",
+          "property": "rotation",
+          "start": [
+            0,
+            0.43388373911755823,
+            0,
+            -0.900968867902419
+          ],
+          "end": [
+            0,
+            0.14904226617617428,
+            0,
+            -0.9888308262251285
+          ]
+        },
+        {
+          "node_name": "mutation_dna_base_pair_010",
+          "property": "translation",
+          "start": [
+            0,
+            1.53,
+            0
+          ],
+          "end": [
+            0,
+            1.87,
+            0
+          ]
+        },
+        {
+          "node_name": "mutation_dna_base_pair_010",
+          "property": "rotation",
+          "start": [
+            0,
+            0.14904226617617428,
+            0,
+            -0.9888308262251285
+          ],
+          "end": [
+            0,
+            -0.14904226617617447,
+            0,
+            -0.9888308262251285
+          ]
+        },
+        {
+          "node_name": "mutation_dna_base_pair_011",
+          "property": "translation",
+          "start": [
+            0,
+            1.87,
+            0
+          ],
+          "end": [
+            0,
+            2.21,
+            0
+          ]
+        },
+        {
+          "node_name": "mutation_dna_base_pair_011",
+          "property": "rotation",
+          "start": [
+            0,
+            -0.14904226617617447,
+            0,
+            -0.9888308262251285
+          ],
+          "end": [
+            0,
+            -0.433883739117558,
+            0,
+            -0.9009688679024191
+          ]
+        }
+      ],
+      "prerequisites": [
+        "Restore the rest transforms before playback."
+      ],
+      "reset": "Stop actions and restore saved rest transforms; do not run mutation clips concurrently."
+    },
+    {
+      "glb": "mutation_scene.glb",
+      "name": "nucleotide_deletion",
+      "purpose": "Remove one complementary nucleotide pair and close/rephase the downstream helix. DNA repair chemistry is not represented.",
+      "duration_seconds": 2.5,
+      "embedded": true,
+      "interruptible": true,
+      "resettable": true,
+      "loop": false,
+      "start_end_states": [
+        {
+          "node_name": "mutation_target_pair",
+          "property": "scale",
+          "start": [
+            1,
+            1,
+            1
+          ],
+          "end": [
+            0.001,
+            0.001,
+            0.001
+          ]
+        },
+        {
+          "node_name": "mutation_dna_base_pair_006",
+          "property": "translation",
+          "start": [
+            0,
+            0.17,
+            0
+          ],
+          "end": [
+            0,
+            -0.17,
+            0
+          ]
+        },
+        {
+          "node_name": "mutation_dna_base_pair_006",
+          "property": "rotation",
+          "start": [
+            0,
+            0.9749279121818236,
+            0,
+            -0.22252093395631434
+          ],
+          "end": [
+            0,
+            0.9972037971811801,
+            0,
+            0.07473009358642417
+          ]
+        },
+        {
+          "node_name": "mutation_dna_base_pair_007",
+          "property": "translation",
+          "start": [
+            0,
+            0.51,
+            0
+          ],
+          "end": [
+            0,
+            0.16999999999999998,
+            0
+          ]
+        },
+        {
+          "node_name": "mutation_dna_base_pair_007",
+          "property": "rotation",
+          "start": [
+            0,
+            0.8660254037844386,
+            0,
+            -0.5000000000000002
+          ],
+          "end": [
+            0,
+            0.9749279121818236,
+            0,
+            -0.22252093395631434
+          ]
+        },
+        {
+          "node_name": "mutation_dna_base_pair_008",
+          "property": "translation",
+          "start": [
+            0,
+            0.8500000000000001,
+            0
+          ],
+          "end": [
+            0,
+            0.51,
+            0
+          ]
+        },
+        {
+          "node_name": "mutation_dna_base_pair_008",
+          "property": "rotation",
+          "start": [
+            0,
+            0.6801727377709194,
+            0,
+            -0.7330518718298263
+          ],
+          "end": [
+            0,
+            0.8660254037844386,
+            0,
+            -0.5000000000000002
+          ]
+        },
+        {
+          "node_name": "mutation_dna_base_pair_009",
+          "property": "translation",
+          "start": [
+            0,
+            1.1900000000000002,
+            0
+          ],
+          "end": [
+            0,
+            0.8500000000000001,
+            0
+          ]
+        },
+        {
+          "node_name": "mutation_dna_base_pair_009",
+          "property": "rotation",
+          "start": [
+            0,
+            0.43388373911755823,
+            0,
+            -0.900968867902419
+          ],
+          "end": [
+            0,
+            0.6801727377709194,
+            0,
+            -0.7330518718298263
+          ]
+        },
+        {
+          "node_name": "mutation_dna_base_pair_010",
+          "property": "translation",
+          "start": [
+            0,
+            1.53,
+            0
+          ],
+          "end": [
+            0,
+            1.19,
+            0
+          ]
+        },
+        {
+          "node_name": "mutation_dna_base_pair_010",
+          "property": "rotation",
+          "start": [
+            0,
+            0.14904226617617428,
+            0,
+            -0.9888308262251285
+          ],
+          "end": [
+            0,
+            0.43388373911755823,
+            0,
+            -0.900968867902419
+          ]
+        },
+        {
+          "node_name": "mutation_dna_base_pair_011",
+          "property": "translation",
+          "start": [
+            0,
+            1.87,
+            0
+          ],
+          "end": [
+            0,
+            1.53,
+            0
+          ]
+        },
+        {
+          "node_name": "mutation_dna_base_pair_011",
+          "property": "rotation",
+          "start": [
+            0,
+            -0.14904226617617447,
+            0,
+            -0.9888308262251285
+          ],
+          "end": [
+            0,
+            0.14904226617617428,
+            0,
+            -0.9888308262251285
+          ]
+        }
+      ],
+      "prerequisites": [
+        "Restore the rest transforms before playback."
+      ],
+      "reset": "Stop actions and restore saved rest transforms; do not run mutation clips concurrently."
+    }
+  ],
+  "external_actions": [
+    {
+      "name": "cell_to_nucleus",
+      "from": "cell",
+      "to": "nucleus",
+      "control": "external_camera_and_visibility",
+      "embedded": false,
+      "recommended_duration_seconds": 1.1,
+      "interruptible": true,
+      "reversible": true,
+      "method": "Activate destination stage and interpolate to its camera target; optionally cross-fade in host. Rebase current camera on interruption.",
+      "scale_change": "educational magnification; not a physical camera traverse through one cell"
+    },
+    {
+      "name": "nucleus_to_chromosome",
+      "from": "nucleus",
+      "to": "chromosome",
+      "control": "external_camera_and_visibility",
+      "embedded": false,
+      "recommended_duration_seconds": 1.1,
+      "interruptible": true,
+      "reversible": true,
+      "method": "Activate destination stage and interpolate to its camera target; optionally cross-fade in host. Rebase current camera on interruption.",
+      "scale_change": "educational magnification; not a physical camera traverse through one cell"
+    },
+    {
+      "name": "chromosome_to_dna",
+      "from": "chromosome",
+      "to": "dna",
+      "control": "external_camera_and_visibility",
+      "embedded": false,
+      "recommended_duration_seconds": 1.1,
+      "interruptible": true,
+      "reversible": true,
+      "method": "Activate destination stage and interpolate to its camera target; optionally cross-fade in host. Rebase current camera on interruption.",
+      "scale_change": "educational magnification; not a physical camera traverse through one cell"
+    },
+    {
+      "name": "dna_to_gene",
+      "from": "dna",
+      "to": "gene",
+      "control": "external_camera_and_visibility",
+      "embedded": false,
+      "recommended_duration_seconds": 1.1,
+      "interruptible": true,
+      "reversible": true,
+      "method": "Activate destination stage and interpolate to its camera target; optionally cross-fade in host. Rebase current camera on interruption.",
+      "scale_change": "educational magnification; not a physical camera traverse through one cell"
+    },
+    {
+      "name": "gene_to_base_pair",
+      "from": "gene",
+      "to": "base_pair",
+      "control": "external_camera_and_visibility",
+      "embedded": false,
+      "recommended_duration_seconds": 1.1,
+      "interruptible": true,
+      "reversible": true,
+      "method": "Activate destination stage and interpolate to its camera target; optionally cross-fade in host. Rebase current camera on interruption.",
+      "scale_change": "educational magnification; not a physical camera traverse through one cell"
+    },
+    {
+      "name": "base_pair_to_bonds",
+      "from": "base_pair",
+      "to": "bonds",
+      "control": "external_camera_and_visibility",
+      "embedded": false,
+      "recommended_duration_seconds": 1.1,
+      "interruptible": true,
+      "reversible": true,
+      "method": "Activate destination stage and interpolate to its camera target; optionally cross-fade in host. Rebase current camera on interruption.",
+      "scale_change": "educational magnification; not a physical camera traverse through one cell"
+    }
+  ],
+  "policy": "No auto-play. Each named clip is independently controllable. Mutation clips must not run concurrently."
+}

@@ -1,0 +1,301 @@
+{
+  "structural_checks": [
+    {
+      "filename": "nested_biology_model.glb",
+      "valid_glb_container": true,
+      "accessors_in_bounds": true,
+      "finite_geometry_and_unit_normals": true,
+      "names_and_hierarchy_match": true,
+      "animation_metadata_matches": true,
+      "canonical_base_pairs_checked": 39,
+      "triangles": 203314,
+      "unique_geometry_buffers_checked": 174,
+      "degenerate_triangles": 0,
+      "max_normal_length_error": 4.6949996557188456e-08
+    },
+    {
+      "filename": "gene_expression_scene.glb",
+      "valid_glb_container": true,
+      "accessors_in_bounds": true,
+      "finite_geometry_and_unit_normals": true,
+      "names_and_hierarchy_match": true,
+      "animation_metadata_matches": true,
+      "canonical_base_pairs_checked": 15,
+      "triangles": 56380,
+      "unique_geometry_buffers_checked": 112,
+      "degenerate_triangles": 0,
+      "max_normal_length_error": 4.226828398401494e-08
+    },
+    {
+      "filename": "mutation_scene.glb",
+      "valid_glb_container": true,
+      "accessors_in_bounds": true,
+      "finite_geometry_and_unit_normals": true,
+      "names_and_hierarchy_match": true,
+      "animation_metadata_matches": true,
+      "canonical_base_pairs_checked": 14,
+      "triangles": 33128,
+      "unique_geometry_buffers_checked": 38,
+      "degenerate_triangles": 0,
+      "max_normal_length_error": 3.939076942405251e-08
+    }
+  ],
+  "visual_review_performed": false,
+  "atomic_scientific_validation_performed": false,
+  "runtime_validation": {
+    "validator": "Khronos gltf-validator",
+    "validator_version": "2.0.0-dev.3.10",
+    "three_revision": "186",
+    "assets": [
+      {
+        "filename": "nested_biology_model.glb",
+        "khronos_errors": 0,
+        "khronos_warnings": 0,
+        "khronos_infos": 0,
+        "khronos_messages": [],
+        "loader_success": true,
+        "loaded_mesh_count": 487,
+        "all_mesh_names_preserved": true,
+        "clips": [],
+        "cameras": [
+          {
+            "level": "cell",
+            "bounds_min": [
+              -5.422265500473219,
+              -4.6,
+              -3.7725830669063734
+            ],
+            "bounds_max": [
+              5.472490887189825,
+              4.6,
+              1.1545056000000002
+            ],
+            "max_ndc_at_square_aspect": 0.9280253284641796,
+            "entire_bounding_box_fits": true
+          },
+          {
+            "level": "nucleus",
+            "bounds_min": [
+              26.13948513257887,
+              -3.4,
+              -3.186
+            ],
+            "bounds_max": [
+              33.8594165986915,
+              3.4,
+              1.7937600000000002
+            ],
+            "max_ndc_at_square_aspect": 0.891263460986481,
+            "entire_bounding_box_fits": true
+          },
+          {
+            "level": "chromosome",
+            "bounds_min": [
+              58.67857955077226,
+              -3.0728190771611525,
+              -0.5085672415972525
+            ],
+            "bounds_max": [
+              61.33347540630273,
+              3.072819077161153,
+              0.53231
+            ],
+            "max_ndc_at_square_aspect": 0.7792029080956046,
+            "entire_bounding_box_fits": true
+          },
+          {
+            "level": "dna",
+            "bounds_min": [
+              88.80962529500606,
+              -3.964909049143057,
+              -1.1804217929110399
+            ],
+            "bounds_max": [
+              91.19040284191112,
+              4.084621778264911,
+              1.193726675347038
+            ],
+            "max_ndc_at_square_aspect": 0.9228527268526311,
+            "entire_bounding_box_fits": true
+          },
+          {
+            "level": "gene",
+            "bounds_min": [
+              117.9168442662606,
+              -2.4760908360003504,
+              -2.0592229266552002
+            ],
+            "bounds_max": [
+              122.08320497334446,
+              2.685588111963594,
+              2.0800386516594624
+            ],
+            "max_ndc_at_square_aspect": 0.7595907021077086,
+            "entire_bounding_box_fits": true
+          },
+          {
+            "level": "base_pair",
+            "bounds_min": [
+              146.90502576701576,
+              -1.4687635277719489,
+              -3.0594169196020116
+            ],
+            "bounds_max": [
+              153.02619725672727,
+              1.780016623488768,
+              2.7642301545052597
+            ],
+            "max_ndc_at_square_aspect": 0.8711760799065458,
+            "entire_bounding_box_fits": true
+          },
+          {
+            "level": "bonds",
+            "bounds_min": [
+              175.69856869291672,
+              -0.8321634818293118,
+              -2.7819383653840246
+            ],
+            "bounds_max": [
+              184.30651148072727,
+              1.2751005795801698,
+              0.6597055508851527
+            ],
+            "max_ndc_at_square_aspect": 0.8909720759660497,
+            "entire_bounding_box_fits": true
+          }
+        ]
+      },
+      {
+        "filename": "gene_expression_scene.glb",
+        "khronos_errors": 0,
+        "khronos_warnings": 0,
+        "khronos_infos": 0,
+        "khronos_messages": [],
+        "loader_success": true,
+        "loaded_mesh_count": 246,
+        "all_mesh_names_preserved": true,
+        "clips": [
+          {
+            "name": "transcription",
+            "duration": 6,
+            "track_count": 1,
+            "pause_verified": true,
+            "endpoint_matches_manifest": true,
+            "reset_verified": true
+          },
+          {
+            "name": "mrna_emergence",
+            "duration": 4.199999809265137,
+            "track_count": 28,
+            "pause_verified": true,
+            "endpoint_matches_manifest": true,
+            "reset_verified": true
+          },
+          {
+            "name": "ribosome_translation",
+            "duration": 5,
+            "track_count": 1,
+            "pause_verified": true,
+            "endpoint_matches_manifest": true,
+            "reset_verified": true
+          },
+          {
+            "name": "trna_entry",
+            "duration": 2.4000000953674316,
+            "track_count": 1,
+            "pause_verified": true,
+            "endpoint_matches_manifest": true,
+            "reset_verified": true
+          },
+          {
+            "name": "amino_acid_chain_growth",
+            "duration": 3.5999999046325684,
+            "track_count": 14,
+            "pause_verified": true,
+            "endpoint_matches_manifest": true,
+            "reset_verified": true
+          }
+        ],
+        "cameras": [
+          {
+            "level": "gene_expression",
+            "bounds_min": [
+              -6.555451007976932,
+              -2.6092544795712036,
+              -1.1005454562683359
+            ],
+            "bounds_max": [
+              5.369374212825093,
+              3.043697422611929,
+              1.4749913269730957
+            ],
+            "max_ndc_at_square_aspect": 0.9342617270937849,
+            "entire_bounding_box_fits": true
+          }
+        ]
+      },
+      {
+        "filename": "mutation_scene.glb",
+        "khronos_errors": 0,
+        "khronos_warnings": 0,
+        "khronos_infos": 0,
+        "khronos_messages": [],
+        "loader_success": true,
+        "loaded_mesh_count": 149,
+        "all_mesh_names_preserved": true,
+        "clips": [
+          {
+            "name": "base_substitution",
+            "duration": 1.7999999523162842,
+            "track_count": 9,
+            "pause_verified": true,
+            "endpoint_matches_manifest": true,
+            "reset_verified": true
+          },
+          {
+            "name": "highlight_mutation",
+            "duration": 1.2000000476837158,
+            "track_count": 1,
+            "pause_verified": true,
+            "endpoint_matches_manifest": true,
+            "reset_verified": true
+          },
+          {
+            "name": "nucleotide_insertion",
+            "duration": 2.5,
+            "track_count": 13,
+            "pause_verified": true,
+            "endpoint_matches_manifest": true,
+            "reset_verified": true
+          },
+          {
+            "name": "nucleotide_deletion",
+            "duration": 2.5,
+            "track_count": 13,
+            "pause_verified": true,
+            "endpoint_matches_manifest": true,
+            "reset_verified": true
+          }
+        ],
+        "cameras": [
+          {
+            "level": "mutation",
+            "bounds_min": [
+              -1.1903747049939422,
+              -1.9249090491430574,
+              -1.1803656764297346
+            ],
+            "bounds_max": [
+              1.1904028419111221,
+              2.044621778264911,
+              1.1885935152339786
+            ],
+            "max_ndc_at_square_aspect": 0.6519772979201006,
+            "entire_bounding_box_fits": true
+          }
+        ]
+      }
+    ]
+  },
+  "result": "PASS"
+}
